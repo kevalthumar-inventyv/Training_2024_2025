@@ -1,60 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task1.css">  
     <link rel="icon" type="image/png" href="logo.png">
-    <link rel="stylesheet" href="page.css" />
     <title>Starbucks Login</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container">
-      <!-- Company Details Section (80%) -->
-      <div class="company-details">
-        <img src="logo.png" alt="Company Logo" />
-        <h1>Welcome to Our Platform</h1>
-        <p>
-          Every day, we go to work hoping to do two things: share great coffee
-          with our friends and help make the world a little better.It was true
-          when the first Starbucks opened in 1971, and it’s just as true today.
-        </p>
-      </div>
-      <!-- Sidebar Section (20%) -->
-      <div class="sidebar">
-        <div class="card">
-          <!-- Tabs -->
-          <div class="tabs">
-            <label for="login">Login</label>
-            <label for="signup">Register</label>
-          </div>
-
-          <!-- Radio buttons to toggle between Login and Sign Up -->
-          <input type="radio" name="tab" id="login" checked />
-          <input type="radio" name="tab" id="signup" />
-
-          <!-- Tab Content -->
-          <div class="tab-content login">
-            <h3>Login</h3>
-            <div class="form">
-              <input type="text" placeholder="Username" required />
-              <input type="password" placeholder="Password" required />
-               <h6>Do not have an account! signup</h6>
-              <button type="submit">Login</button>
+        <div class="left">
+            <div class="leftInner">
+                <div class="logo">
+                    <img src="logo.png" alt="Company Logo">
+                </div>
+                <h1>Welcome to Our Platform</h1>
+                <p>
+                    Every day, we go to work hoping to do two things: share great coffee
+                    with our friends and help make the world a little better.It was true
+                    when the first Starbucks opened in 1971, and it’s just as true today.
+                </p>
             </div>
-          </div>
-
-          <div class="tab-content signup">
-            <h3>Register</h3>
-            <div class="form">
-              <input type="text" placeholder="Username" required />
-              <input type="email" placeholder="Email" required />
-              <input type="password" placeholder="Password" required />
-              <h6>Alredy have an account? Login</h6>
-              <button type="submit">Sign Up</button>
-            </div>
-          </div>
         </div>
-      </div>
+        <div class="right">
+            <div class="tabs">
+                <details id="login-details" open>
+                    <summary>Login</summary>
+                    <div class="tab-content">
+                        <h3>Login</h3>
+                        <form>
+                            <input type="text" name="username" placeholder="Username" required>
+                            <input type="password" name="password" placeholder="Password" required>
+                            <button type="submit" class="btn">Login</button>
+                        </form>
+                    </div>
+                </details>
+
+                <details id="register-details">
+                    <summary>Register</summary>
+                    <div class="tab-content">
+                        <h3>Register</h3>
+                        <form>
+                            <input type="text" name="username" placeholder="Username" required>
+                            <input type="email" name="email" placeholder="Email" required>
+                            <input type="password" name="password" placeholder="Password" required>
+                            <button type="submit" class="btn">Register</button>
+                        </form>
+                    </div>
+                </details>
+            </div>
+        </div>
+
     </div>
-  </body>
+    </div>
+</body>
+
 </html>
