@@ -17,20 +17,11 @@ body {
     background-color: black;
 }
 
-.company-details {
-    background-color: #d4e9e2;
-    display: flex;
-    width: 80%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+
 
 img {
     width: 150px;
     height: auto;
-    margin-bottom: 20px;
 }
 
 h1 {
@@ -50,19 +41,20 @@ p {
 .left {
     height: 100vh;
     flex: 6;
-    background-color: white;
+    background-color: #d7ffe7;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .leftInner {
-    width: 50%;
-    margin-bottom: 150px;
+    width: 80%;
 }
 
 h3 {
+    padding-left: 42%;
     color: white;
+    padding-bottom: 8px;
 }
 
 .right {
