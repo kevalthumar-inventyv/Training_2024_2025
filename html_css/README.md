@@ -55,3 +55,14 @@ details[open] .tab-content {
     display: block;
 }
 ```
+
+## What We Learn from this
+
+1. **HTML Semantics:** Understanding how to use `<details>` and `<summary>` tags for interactive elements without JavaScript.
+
+2. **CSS Techniques:** Learning to manipulate visibility and layout using CSS properties like position and display.
+
+3. **Constraints Creativity:** Developing solutions under constraints like avoiding JavaScript or specific HTML tags.
+
+4. **UI Design Basics:** Creating functional and visually appealing interfaces using pure HTML and CSS.
+
