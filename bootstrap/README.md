@@ -25,3 +25,15 @@ Design and implement a responsive login/signup page using Bootstrap.
 4. **Implementation Notes:**
    - You may use JavaScript, CSS, and HTML freely.
    - Navigation between tabs can leverage JavaScript or Bootstrap's tab components.
+     
+## What We Learn from this
+
+1. **Bootstrap Basics:** Gaining proficiency with Bootstrap’s grid system, utility classes, and components.
+
+2. **Responsive Design:** Understanding how to create layouts that adapt to different screen sizes and devices.
+
+3. **Form Design:** Learning to build user-friendly forms for login and signup functionalities.
+
+4. **Tab Navigation:** Exploring tabbed interfaces using JavaScript or Bootstrap's built-in components.
+
+5. **Page Structuring:** Enhancing skills in structuring web pages efficiently using modern front-end technologies.
