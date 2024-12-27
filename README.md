@@ -4,14 +4,26 @@
 
 ``` plaintext
 bootstrap
-   |-- index.html
-   |-- logo.png
+   |-- README.md
+   |-- task 1
+   |   |-- README.md
+   |   |-- index.html
+   |   |-- logo.png
 html_css
-   |-- logo.png
-   |-- page.css
-   |-- page.html
+   |-- README.md
+   |-- Task_1
+   |   |-- README.md
+   |   |-- logo.png
+   |   |-- page.css
+   |   |-- page.html
 javascript
-   |-- javascript.js
+   |-- README.md
+   |-- task 1
+   |   |-- README.md
+   |   |-- javascript_1.js
+   |-- task 2
+   |   |-- README.md
+   |   |-- javascript_2.js
 LICENSE
 README.md
 ```
