@@ -65,4 +65,3 @@ details[open] .tab-content {
 3. **Constraints Creativity:** Developing solutions under constraints like avoiding JavaScript or specific HTML tags.
 
 4. **UI Design Basics:** Creating functional and visually appealing interfaces using pure HTML and CSS.
-
