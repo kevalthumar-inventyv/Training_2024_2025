@@ -13,8 +13,7 @@
        - If the sum is greater than 30, it creates a promise and resolves it with the message "Sum is greater than 30".
        - If the sum is less than or equal to 30, it rejects the promise with the message "Sum is less than 30".
     3. Constraints:
-       - Use only one inbuilt function: `reduce`.
-       - Use only one additional inbuilt function: `unshift`.
+       - Use only one inbuilt function: `reduce` or `unshift`.
        - Use only two array variables and one sum variable.
 
 ## Solution_1
@@ -38,8 +37,7 @@
        - If the sum is greater than 30, it creates a promise and resolves it with the message "Sum is greater than 30".
        - If the sum is less than or equal to 30, it rejects the promise with the message "Sum is less than 30".
     3. Constraints:
-       - Use only one inbuilt function: `reduce`.
-       - Use only one additional inbuilt function: `unshift`.
+       - Use only one inbuilt function: `reduce` or `unshift`.
        - Use only two array variables and one sum variable.
        - Use only array of `Symbol` in both arrays.
 

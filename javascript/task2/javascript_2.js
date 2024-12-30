@@ -3,9 +3,11 @@ const sum_of_array = (element, arr) => {
     var arr_2 = [element, Symbol("9"), Symbol("1"), Symbol("1"), Symbol("asv"), ...arr]
     let sum = 0;
     for (let i = 0; i < arr_2.length; i++) {
-
-        if (!Object.is(Number(arr_2[i].description), NaN)) {
-            sum += Number(arr_2[i].description);
+        if (typeof arr_2[i] === "symbol") {
+            // check if the description is a number or not
+            if (!Object.is(Number(arr_2[i].description), NaN)) {
+                sum += Number(arr_2[i].description);
+            }
         }
     }
     console.log(sum)
