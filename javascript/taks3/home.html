@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="page.css" />
+    <link rel="icon" type="image/png" href="logo.png" />
+    <title>Starbucks Home</title>
+  </head>
+
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .home-container {
+      text-align: center;
+      background-color: #1e3932;
+      padding: 20px;
+      border-radius: 10px;
+      color: white;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    #deleteSession {
+      background-color: #284e44;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    #deleteSession:hover {
+      background-color: #172e28;
+    }
+  </style>
+
+  <body>
+    <div id="alert" class="alert">
+        <div class="alert-content">
+            <span id="alert-title"></span>
+            <p id="alert-message"></p>
+        </div>
+        <button class="close-btn" onclick="closeAlert()">×</button>
+    </div>
+    <div class="home-container">
+      <span id="remainingTime">Remaing Time: </span>
+      <h1 style="color: #f4f4f9">Welcome, User <span id="username"></span></h1>
+      <p style="color: #f4f4f9">Email: <span id="email"></span></p>
+      <button id="deleteSession">Delete Session</button>
+    </div>
+    <script src="page.js"></script>
+  </body>
+</html>

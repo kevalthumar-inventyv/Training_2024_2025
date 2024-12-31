@@ -3,6 +3,13 @@
 ## Folder Structure
 
 ``` plaintext
+adventofcode
+   |-- Day1
+   |   |-- day1.js
+   |-- Day2
+   |   |-- day2.js
+   |-- README.md
+   |-- input.txt
 bootstrap
    |-- README.md
    |-- task 1
@@ -18,10 +25,10 @@ html_css
    |   |-- page.html
 javascript
    |-- README.md
-   |-- task 1
+   |-- task1
    |   |-- README.md
    |   |-- javascript_1.js
-   |-- task 2
+   |-- task2
    |   |-- README.md
    |   |-- javascript_2.js
 LICENSE

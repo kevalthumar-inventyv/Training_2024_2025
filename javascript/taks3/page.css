@@ -32,7 +32,6 @@ h1 {
 p {
     font-size: 1.3rem;
     color: #2c584f;
-
     line-height: 1.6;
 }
 
@@ -190,14 +189,6 @@ input[type="password"] {
     border-radius: 4px;
 }
 
-button {
-    padding: 10px 20px;
-    border: none;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-    border-radius: 4px;
-}
 
 button:hover {
     background-color: #1e3c35;
@@ -214,4 +205,62 @@ details>summary {
 
 details>summary::-webkit-details-marker {
     display: none;
+}
+
+/* alert */
+
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 15px;
+    background: linear-gradient(to right, #2c574c, #34675a);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+    max-width: 300px;
+    animation: slideIn 1s ease-out;
+    z-index: 1000;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.alert-content {
+    margin-right: 20px;
+}
+
+.close-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.close-btn:hover{
+    background-color: #295349;
+}
+
+#alert-message {
+    font-size: small;
+    color: white;
+}
+
+#alert-title {
+    font-size: medium;
+    color: white;
 }

@@ -5,7 +5,10 @@ const sum_of_array = (element, arr) => {
     for (let i = 0; i < arr_2.length; i++) {
         if (typeof arr_2[i] === "symbol") {
             // check if the description is a number or not
-            if (!Object.is(Number(arr_2[i].description), NaN)) {
+            // if (!Object.is(Number(arr_2[i].description), NaN)) {
+            //     sum += Number(arr_2[i].description);
+            // }
+            if (Number(arr_2[i].description) === Number(arr_2[i].description)) {
                 sum += Number(arr_2[i].description);
             }
         }
@@ -24,7 +27,7 @@ const sum_of_array = (element, arr) => {
     });
 }
 (() => {
-    var arr_1 = [Symbol(1), Symbol(2), Symbol("3"), Symbol("4"), Symbol("5")];
+    var arr_1 = [Symbol(1), Symbol(2), Symbol("3"), Symbol("4"), Symbol("5"),];
     const element = arr_1.shift();
     sum_of_array(element, arr_1);
 })();
