@@ -9,13 +9,10 @@ function isSafe(levels) {
     let isDecreasing = true;
 
     for (let i = 0; i < levels.length - 1; i++) {
-
         const diff = Math.abs(levels[i + 1] - levels[i]);
-
         if (diff < 1 || diff > 3) return false;
         if (levels[i + 1] > levels[i]) isDecreasing = false;
         else if (levels[i + 1] < levels[i]) isIncreasing = false;
-
     }
 
     return isIncreasing || isDecreasing;
