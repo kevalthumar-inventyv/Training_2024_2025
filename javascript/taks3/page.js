@@ -114,6 +114,3 @@ function closeAlert() {
 if (window.location.pathname.includes("home.html")) {
     setupHomePage();
 }
-
-
-
