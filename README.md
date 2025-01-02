@@ -3,6 +3,31 @@
 ## Folder Structure
 
 ``` plaintext
+Flowchart
+   |-- 1to5number
+   |   |-- README.md
+   |   |-- print1to5number.js
+   |   |-- sumof1to5number.js
+   |-- FunctionOfShape
+   |   |-- README.md
+   |   |-- areaofcircle.js
+   |   |-- perimeterofrectangle.js
+   |-- MaxOfNumber
+   |   |-- README.md
+   |   |-- maxofthreenumber.js
+   |   |-- maxoftwonumber.js
+   |-- README.md
+   |-- fectorial
+   |   |-- README.md
+   |   |-- fectorialofnumber.js
+   |   |-- seriesoffectorial.js
+   |   |-- seriesoffectorialwithalternetsign.js
+   |-- series
+   |   |-- README.md
+   |   |-- alternetive+or-ofnumber.js
+   |   |-- peramidinsingleline.js
+   |   |-- seriesofsinx.js
+   |   |-- triangleseriesinoneline.js
 adventofcode
    |-- Day1
    |   |-- day1.js
