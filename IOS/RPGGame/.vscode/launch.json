@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:RPGGame}",
+            "name": "Debug RPGGame",
+            "program": "${workspaceFolder:RPGGame}/.build/debug/RPGGame",
+            "preLaunchTask": "swift: Build Debug RPGGame"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:RPGGame}",
+            "name": "Release RPGGame",
+            "program": "${workspaceFolder:RPGGame}/.build/release/RPGGame",
+            "preLaunchTask": "swift: Build Release RPGGame"
+        }
+    ]
+}

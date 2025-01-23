@@ -102,7 +102,7 @@ struct Character {
             )
 
             // If the quantity reaches 0, remove the item from inventory
-            if inventoryItem.quantity == 0 {
+            if inventoryItem.quantity <= 1 {
                 inventory.removeValue(forKey: item)
                 print("\(item) is now out of stock and removed from inventory.")
             }
@@ -147,7 +147,8 @@ enum Enemy {
         if let weapon = user.inventory[item] {
             health -= (baseAttack + weapon.attack)
             user.health += weapon.defense
-            user.useItem(item: item)  // This reduces quantity or removes the item
+            user.useItem(item: item)
+            inventryManageUser.inventory.removeValue(forKey: item)  // This reduces quantity or removes the item
             print(
                 "\(item) used. Enemy's health is now \(health >= 0 ? health : 0)."
             )
