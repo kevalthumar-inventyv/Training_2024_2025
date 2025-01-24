@@ -23,7 +23,18 @@
 // MARK: - Character
 struct Character {
     var name: String
-    var health: Int
+    var health: Int {
+        // set thay ee pela check kari leva
+        didSet {
+            if health > 200 {
+                health = 200
+            }
+            if health < 0 {
+                health = 0
+            }
+        }
+        // set thay gay pachi check karva willSet
+    }
     var attack: Int
     var defense: Int
     var inventory: [String: (attack: Int, defense: Int, quantity: Int)] = [:]
@@ -150,12 +161,12 @@ enum Enemy {
             user.useItem(item: item)
             inventryManageUser.inventory.removeValue(forKey: item)  // This reduces quantity or removes the item
             print(
-                "\(item) used. Enemy's health is now \(health >= 0 ? health : 0)."
+                "\(item) used. Enemy's health is now \(health)."
             )
         } else {
             health -= baseAttack
             print(
-                "Base attack of \(baseAttack) applied. Enemy's health is now \(health >= 0 ? health : 0)."
+                "Base attack of \(baseAttack) applied. Enemy's health is now \(health)."
             )
         }
 
