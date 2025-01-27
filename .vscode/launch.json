@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Training_2024_2025}/IOS/RPGGame",
+            "name": "Debug RPGGame (IOS/RPGGame)",
+            "program": "${workspaceFolder:Training_2024_2025}/IOS/RPGGame/.build/debug/RPGGame",
+            "preLaunchTask": "swift: Build Debug RPGGame (IOS/RPGGame)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Training_2024_2025}/IOS/RPGGame",
+            "name": "Release RPGGame (IOS/RPGGame)",
+            "program": "${workspaceFolder:Training_2024_2025}/IOS/RPGGame/.build/release/RPGGame",
+            "preLaunchTask": "swift: Build Release RPGGame (IOS/RPGGame)"
+        }
+    ]
+}

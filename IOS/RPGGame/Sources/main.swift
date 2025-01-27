@@ -11,6 +11,7 @@
  extension    Add functionality to existing types.    Add computed properties or conform to protocols.
  mutating    Modify properties in value types.    Increment counters or toggle enum cases.
  get/set    Define computed properties for logic.    Calculate and update properties dynamically.
+ willset/didset    Observe property changes.    Validate or update properties before or after changes.
  */
 // !!!
 
