@@ -58,12 +58,33 @@ html_css
    |   |-- README.md
    |   |-- page.css
    |   |-- page.html
-├── IOS
-│   ├── README.md
-│   └── RPGGame
-│       ├── Package.swift
-│       └── Sources
-│           └── main.swift
+IOS
+   ├── README.md
+   ├── RPGGame
+   │   ├── Package.swift
+   │   ├── README.md
+   │   └── Sources
+   │       └── main.swift
+   ├── task_1
+   │   ├── Package.swift
+   │   ├── README.md
+   │   └── Sources
+   │       └── main.swift
+   ├── task_2
+   │   ├── Package.swift
+   │   ├── README.md
+   │   └── Sources
+   │       └── main.swift
+   ├── task_3
+   │   ├── Package.swift
+   │   ├── README.md
+   │   └── Sources
+   │       └── main.swift
+   └── task_4
+       ├── Package.swift
+       ├── README.md
+       └── Sources
+           └── main.swift
 javascript
    |-- README.md
    |-- taks3
