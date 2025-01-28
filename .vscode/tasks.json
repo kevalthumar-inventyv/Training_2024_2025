@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "swift: Build Debug task_3",
+			"command": "swift",
+			"args": [
+				"build"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}/IOS/task_3"
+			},
+			"presentation": {
+				"reveal": "silent"
+			}
+		}
+	]
+}

@@ -1,6 +1,6 @@
 # Details of Tasks
 
-## Task 1
+## RPGGame
 
 ## Scenario
 
@@ -38,3 +38,49 @@ Create a console-based RPG Adventure Game in Swift. The player controls a charac
 - The game randomly generates encounters (battles or treasures).
 - Players interact using the console (choose actions during battles, use items, etc.).
 - The game concludes after 3 events menace total battles,  treasures can be any time , displaying the player’s final stats.
+
+## Solved Questions
+
+### **Collection Types**
+
+1. Write a program to reverse the elements of an array.
+2. Write a program to filter only even numbers from an array.
+3. Write a program to find the maximum and minimum values in an array.
+4. Write a program to remove duplicate elements from an array using a set.
+5. Write a program to find common elements between two arrays using sets.
+6. Write a program to check if one set is a subset of another.
+7. Write a program to count the occurrences of each word in an array using a dictionary.
+8. Write a program to create a phone book where names are keys and phone numbers are values.
+9. Write a program to swap the keys and values in a dictionary.
+10. Write a program to group words by their length using a dictionary.
+11. Write a program to store student names and grades, calculate the average grade, and find the top-performing student.
+
+### **Control Flow**
+
+1. Write a program to print the multiplication table for a given number.
+2. Write a program to calculate the sum of numbers from 1 to 100 using a loop.
+3. Write a program to find the first number greater than 50 in a list.
+4. Write a program to check if a given number is even or odd.
+5. Write a program to categorize a person's age into groups (child, teenager, adult).
+6. Write a program to assign a grade based on a student's score.
+7. Write a program to print numbers from 1 to 20 but skip multiples of 3.
+8. Write a program using labeled loops to exit an outer loop when a condition is met.
+9. Write a program to print the first 10 numbers in the Fibonacci sequence.
+10. Write a program to print all prime numbers between 1 and 50.
+11. Write a function to validate user input using guard.
+12. Write a program to calculate the factorial of a given number using a loop.
+
+### **Higher Order Functions**
+
+1. Write a program to double each element in an array using map.
+2. Write a program to convert an array of temperatures in Celsius to Fahrenheit using map.
+3. Write a program to flatten a nested array of integers using flatMap.
+4. Write a program to combine all strings from nested arrays into a single array using flatMap.
+5. Write a program to calculate the product of all elements in an array using reduce.
+6. Write a program to join an array of words into a single sentence using reduce.
+7. Write a program to sort an array of names in alphabetical order.
+8. Write a program to sort an array of numbers in descending order using sorted.
+9. Write a program to sort a dictionary by its values using sorted.
+10. Write a program to group numbers into even and odd using reduce.
+11. Write a program to find the longest string in an array using reduce.
+12. Write a program to transform and flatten nested arrays of numbers, keeping only even numbers.

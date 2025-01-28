@@ -17,6 +17,42 @@
             "name": "Release RPGGame (IOS/RPGGame)",
             "program": "${workspaceFolder:Training_2024_2025}/IOS/RPGGame/.build/release/RPGGame",
             "preLaunchTask": "swift: Build Release RPGGame (IOS/RPGGame)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Training_2024_2025}/IOS/task_4",
+            "name": "Debug task_4 (IOS/task_4)",
+            "program": "${workspaceFolder:Training_2024_2025}/IOS/task_4/.build/debug/task_4",
+            "preLaunchTask": "swift: Build Debug task_4 (IOS/task_4)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Training_2024_2025}/IOS/task_4",
+            "name": "Release task_4 (IOS/task_4)",
+            "program": "${workspaceFolder:Training_2024_2025}/IOS/task_4/.build/release/task_4",
+            "preLaunchTask": "swift: Build Release task_4 (IOS/task_4)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Training_2024_2025}/IOS/task_3",
+            "name": "Debug task_3 (IOS/task_3)",
+            "program": "${workspaceFolder:Training_2024_2025}/IOS/task_3/.build/debug/task_3",
+            "preLaunchTask": "swift: Build Debug task_3 (IOS/task_3)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Training_2024_2025}/IOS/task_3",
+            "name": "Release task_3 (IOS/task_3)",
+            "program": "${workspaceFolder:Training_2024_2025}/IOS/task_3/.build/release/task_3",
+            "preLaunchTask": "swift: Build Release task_3 (IOS/task_3)"
         }
     ]
 }
