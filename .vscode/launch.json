@@ -89,6 +89,24 @@
             "name": "Release class_structure (IOS/class_structure)",
             "program": "${workspaceFolder:Training_2024_2025}/IOS/class_structure/.build/release/class_structure",
             "preLaunchTask": "swift: Build Release class_structure (IOS/class_structure)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Training_2024_2025}/IOS/task_1",
+            "name": "Debug task_1 (IOS/task_1)",
+            "program": "${workspaceFolder:Training_2024_2025}/IOS/task_1/.build/debug/task_1",
+            "preLaunchTask": "swift: Build Debug task_1 (IOS/task_1)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Training_2024_2025}/IOS/task_1",
+            "name": "Release task_1 (IOS/task_1)",
+            "program": "${workspaceFolder:Training_2024_2025}/IOS/task_1/.build/release/task_1",
+            "preLaunchTask": "swift: Build Release task_1 (IOS/task_1)"
         }
     ]
 }

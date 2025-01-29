@@ -65,6 +65,10 @@ IOS
    │   ├── README.md
    │   └── Sources
    │       └── main.swift
+   ├── class_structure
+   │   ├── Package.swift
+   │   └── Sources
+   │       └── main.swift
    ├── task_1
    │   ├── Package.swift
    │   ├── README.md
