@@ -84,3 +84,47 @@ Create a console-based RPG Adventure Game in Swift. The player controls a charac
 10. Write a program to group numbers into even and odd using reduce.
 11. Write a program to find the longest string in an array using reduce.
 12. Write a program to transform and flatten nested arrays of numbers, keeping only even numbers.
+
+### **Class and Structure**
+
+1. Basic Class Creation
+
+    - Create a class named Book with the following properties:
+        1. title (String)
+        2. author (String)
+        3. pages (Int)
+    - Add a method description() that prints the book's details in this format: "Title: [title], Author: [author], Pages: [pages]".
+    - Create an instance of the class and call the description() method.
+2. Understanding Reference Types
+
+    - Create a class Person with properties name (String) and age (Int).
+    - Create two instances of Person pointing to the same object. Modify the name using one instance and print the name from the other. What happens? Notice the differences. Note it down inside your obsidian notes.
+3. Basic Structure Creation
+
+    - Define a structure Rectangle with properties width (Double) and height (Double).
+    - Add a method area() that calculates and returns the area of the rectangle.
+    - Create two instances of Rectangle and modify one instance’s width. Print the area for both instances to show that they are independent.
+4. Working with Mutating Methods
+
+    - Define a structure Counter with a property count (Int) initialized to 0.
+    - Add a mutating method increment(by:) that increases the count by the given amount.
+    - Create an instance of Counter, increment it by 5, and print the updated count.
+5. Using self in Initializers
+
+    - Create a class Circle with a property radius (Double) and an initializer that uses the self keyword to set the value of radius.
+    - Add a method circumference() that calculates and returns the circumference of the circle (2 *π* radius).
+    - Create an instance of the class and print the circumference.
+6. Classes vs. Structures
+
+    - Write a program to demonstrate the difference between a class and a structure. Create a class Car and a structure Bicycle, both with a speed property (Double).
+    - Modify the speed of a class instance and a structure instance after assigning them to new variables. Print the results to explain the reference and value type behavior.
+7. Inheritance with Classes
+
+    - Create a base class Animal with a property name (String) and a method sound() that prints "Some generic sound".
+    - Create a subclass Dog that overrides the sound() method to print "Woof!".
+    - Create instances of Animal and Dog, call their sound() methods.
+8. Custom Initializers in Structures
+
+    - Create a structure Point with properties x (Double) and y (Double).
+    - Add a custom initializer that takes a single value and initializes both x and y to the same value.
+    - Create an instance of Point using this initializer and print its properties.

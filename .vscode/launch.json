@@ -53,6 +53,42 @@
             "name": "Release task_3 (IOS/task_3)",
             "program": "${workspaceFolder:Training_2024_2025}/IOS/task_3/.build/release/task_3",
             "preLaunchTask": "swift: Build Release task_3 (IOS/task_3)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Training_2024_2025}/IOS/task_2",
+            "name": "Debug task_2 (IOS/task_2)",
+            "program": "${workspaceFolder:Training_2024_2025}/IOS/task_2/.build/debug/task_2",
+            "preLaunchTask": "swift: Build Debug task_2 (IOS/task_2)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Training_2024_2025}/IOS/task_2",
+            "name": "Release task_2 (IOS/task_2)",
+            "program": "${workspaceFolder:Training_2024_2025}/IOS/task_2/.build/release/task_2",
+            "preLaunchTask": "swift: Build Release task_2 (IOS/task_2)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Training_2024_2025}/IOS/class_structure",
+            "name": "Debug class_structure (IOS/class_structure)",
+            "program": "${workspaceFolder:Training_2024_2025}/IOS/class_structure/.build/debug/class_structure",
+            "preLaunchTask": "swift: Build Debug class_structure (IOS/class_structure)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Training_2024_2025}/IOS/class_structure",
+            "name": "Release class_structure (IOS/class_structure)",
+            "program": "${workspaceFolder:Training_2024_2025}/IOS/class_structure/.build/release/class_structure",
+            "preLaunchTask": "swift: Build Release class_structure (IOS/class_structure)"
         }
     ]
 }

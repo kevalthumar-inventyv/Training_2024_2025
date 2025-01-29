@@ -162,3 +162,11 @@ var studentGrades: [String: [String: Int]] = [
 ]
 
 findTopPerformingStudent(studentGrades: studentGrades)
+
+//MARK: difference between JSON and Dictionary:--
+/*
+    - JSON data is typically represented as a Data object, which can be parsed into a dictionary using JSONSerialization. JSON keys are strings and can be repeated, and the values can be of various types, including nested JSON structures.
+    - A Dictionary in Swift is a collection type that stores key-value pairs. Each key must be unique and is used to uniquely identify values within the dictionary. 
+    - Dictionaries are mutable and can store values of any type, as long as each key is unique and conforms to the Hashable protocol.
+    - we often parse JSON data into a dictionary using JSONSerialization, allowing you to access and manipulate the data as key-value pairs. This process converts the JSON string into a native Swift dictionary, making it easier to work with the data in your application.
+*/
