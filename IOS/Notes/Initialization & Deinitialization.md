@@ -14,7 +14,7 @@
 3. What is the purpose of a memberwise initializer in a structure?
 `Ans:-`
 
-    - The purpose of the member is that there is no need to worry about the initial properties that are present in that structure It will automatically initial when we pass the value.
+    - The purpose of the member is to eliminate concerns regarding the initial properties present in that structure. It will automatically initialize when we pass the value.
 
 4. How do you create a custom initializer with parameters?
 `Ans:-`
