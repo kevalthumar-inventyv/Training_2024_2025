@@ -9,28 +9,32 @@ func checkOddEven(number: Int) -> String {
 //print(checkOddEven(number: 6))
 // Write the Fizz-Buzz program up to 101. (look below for example)
 
-func printPattenForMultipleOf3And5() {
-
-    for i in 1...10100 {
-        var ans = ""
-        if i % 3 == 0 {
-            ans += "Fizz"
-        }
-        if i % 5 == 0 {
-            ans += "bizz"
-        }
-        if i % 7 == 0 {
-            ans += "cizz"
-        }
-        if i % 9 == 0 {
-            ans += "kizz"
-        }
-        if ans != "" {
-            print(ans)
-        } else {
-            print(i)
-        }
+func outputOfString(number: Int) -> String {
+    var ans = ""
+    if number % 3 == 0 {
+        ans += "Fizz"
     }
+    if number % 5 == 0 {
+        ans += "bizz"
+    }
+    // if number % 7 == 0 {
+    //     ans += "cizz"
+    // }
+    // if number % 9 == 0 {
+    //     ans += "kizz"
+    // }
+    if ans != "" {
+        return ans
+    } else {
+        return "\(number)"
+    }
+}
+print("Enter the number:", terminator: "")
+if let number = readLine() , Int(number) != nil {
+    print(outputOfString(number: Int(number)!))
+}
+else {
+    print("Invalid input")
 }
 
 //printPattenForMultipleOf3And5()
