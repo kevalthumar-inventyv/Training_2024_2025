@@ -4,7 +4,7 @@
 
 ### Introduction
 
-This provides a detailed review of optional chaining in Swift, a feature designed to enhance code safety and readability when working with optional values. The core concept is to provide a way to access properties, call methods, or use subscripts on optionals without risking runtime crashes. This contrasts with the dangers of forced unwrapping.
+This provides a detailed review of optional chaining in Swift, a feature designed to enhance code safety and readability when working with optional values. The core concept is to provide a way to access properties, call methods, or use subscripts on options without risking runtime crashes. This contrasts with the dangers of forced unwrapping.
 
 ### Key Concepts
 

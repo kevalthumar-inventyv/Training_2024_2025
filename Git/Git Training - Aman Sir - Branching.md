@@ -1,5 +1,6 @@
+# Git Training - Aman Sir - Branching
 
-# Git Workflow Guide
+## Git Workflow Guide
 
 ## How to Create a New Branch?
 
@@ -11,8 +12,10 @@ git branch <branch_name>
 ```
 
 > Note: We create a new branch named **release_{env_branch}_{feature_name}**
-> Here env menace dev prod alpha
-### Example:
+> Here env meance dev prod alpha
+>
+### Example
+
 To create branches like `dev`, `alpha`, or `prod`, use the following commands:
 
 ```bash
@@ -115,4 +118,3 @@ This final step consolidates all your changes into the master branch, marking th
 This Git branching workflow ensures a structured and efficient approach to managing code within your team. By using separate branches for features, releases, and the master branch, you keep development organized and reduce conflicts. This process allows teams to collaborate smoothly, maintain a stable codebase, and deliver reliable updates to production.
 
 By following these best practices, you ensure consistency and streamline the development process, from feature development to final release.
-
