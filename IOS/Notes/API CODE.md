@@ -3,6 +3,7 @@ date created: 2025-02-12 17:56
 date updated: 2025-02-13 10:50
 ---
 
+
 ## 1) OpenWeatherMap (GET)
 
 ```swift
